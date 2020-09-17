@@ -1,4 +1,7 @@
-a=int(input("Enter the 1st number to be subtracted: ")
-b=int(input("Enter the 2nd number to be subtracted: ")
-int c=a-b
-print("Subtraction is: "+c)
+def subtraction(x,y):
+    sub=x-y
+    return sub
+a=float(input("Please enter 1st number: "))
+b=float(input("Please enter 2nd number: "))
+
+print("Sum is: ",subtraction(a,b))
