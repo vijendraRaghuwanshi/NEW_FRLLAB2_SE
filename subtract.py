@@ -4,4 +4,4 @@ def subtraction(x,y):
 a=float(input("Please enter 1st number: "))
 b=float(input("Please enter 2nd number: "))
 
-print("Sum is: ",subtraction(a,b))
+print("subtration is: ",subtraction(a,b))
